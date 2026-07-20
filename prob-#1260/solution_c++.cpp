@@ -5,7 +5,6 @@ public:
         int n = grid[0].size();
         vector<vector<int>> output = grid;
 
-
         for(int repeat = 0; repeat < k; repeat++) {
             int new_val = output[m - 1][n - 1];
             int old_val = output[0][0];
